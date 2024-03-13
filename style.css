@@ -1,0 +1,121 @@
+/* TAG STYLING */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin: 0;
+}
+main {
+    width: 100%;
+    max-width: 1200px;
+    border: black;
+    overflow-x: hidden;
+}
+#info{
+    font-size: 19px;
+}
+.text{
+    font-size: 19px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 22px;
+    align-items: center;
+}
+h6 {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* END OF TAG STYLING */
+.page-title {
+    color: rgb(24, 23, 23);
+    text-align: center;
+}
+#profile{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+#profile-image{
+    width: inherit;
+}
+#profile-image img {
+    width: inherit;
+    padding: 30px;
+}
+#profile-information{
+    width: inherit;
+    padding: 50px;
+}
+#profile-information-container{
+    display: grid;
+    width: inherit;
+}
+.name{
+    text-align: center;
+}
+.gey{
+    text-align: center;
+}
+#cv-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 3fr 1fr;
+}
+#cv-container-content {
+    display: grid;
+}
+.cv-content {
+    display: grid;
+    padding-right: 40px;
+}
+#cv-aside {
+    display: grid;
+    padding-left: 30px;
+}
+#cv-aside-toggled {
+    transition: .5s ease-in;
+}
+.hidden {
+    transform: translateX(350px);
+}
+.button-rotated #cv-asside-toggle-image {
+    rotate: 270deg;
+    transition: .5s ease-in-out;
+}
+#cv-aside-toggle {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    padding: 24px;
+}
+#cv-aside-toggle:hover {
+    background-color: lightskyblue;
+}
+#cv-asside-toggle-image {
+    rotate: 90deg;
+}
+#cv-asside-toggle-text {
+    margin: 0;
+    padding-left: 12px;
+}
+.Ergebnisse{
+    font-size: 17px;
+}
+#erf{
+    font-size: 20px;
+}
+ 
